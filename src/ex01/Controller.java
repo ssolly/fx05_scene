@@ -3,6 +3,7 @@ package ex01;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.CheckBox;
@@ -32,6 +33,19 @@ public class Controller implements Initializable {
 		System.out.println(gender);
 		System.out.println(hobby);
 		System.out.println(age);
+		
+		
+//		//새 창 띄우기
+//		try {
+//			Stage primartyStage = new Stage();
+//			FXMLLoader loader = new FXMLLoader(getClass().getResource("경로설정"));
+//			Parent root = loader.load();
+//			Scene scene = new Scene(root);
+//			primaryStage.setScene(scene);
+//			primaryStage.show();
+//		} catch (Exception e) {
+//			
+//		}
 		
 	}
 
